@@ -1,0 +1,1 @@
+in UDP protocol there is no server and client thing, everything is a passive connection.
