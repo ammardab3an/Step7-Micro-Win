@@ -1,7 +1,7 @@
 import socket, errno, time
 
 host, port = '192.168.2.3', 7000
-switcher = { 'ib':0, 'qb':1, 'mb':2, 'sb':3, 'cb':4 'vb':8 }
+switcher = { 'ib':0, 'qb':1, 'mb':2, 'sb':3, 'sm':4, 'vb':8, 'tb':9, 'cb':10 }
 sock = socket.socket()
 
 def sendData(data):
